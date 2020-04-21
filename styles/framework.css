@@ -389,7 +389,7 @@ h5{font-size:17px; line-height:22px}
 .page-title:not(has-subtitle){padding-top:30px!important;}
 .page-title:not(has-subtitle) .page-title-right{padding-top:5px!important;}
 .page-title-right{position:absolute; right:10px; top:29px; z-index:5;}
-.page-title-right a.close-menu{top:-10px;}
+.page-title-right a.close-menu{top:-15px;}
 .page-title{padding-top:25px;}
 .page-title .page-title-right{margin-top:-12px;}
 .page-title.has-subtitle a{padding-top:3px!important;}
@@ -522,6 +522,7 @@ h5{font-size:17px; line-height:22px}
 .divider-icon{height:1px; display:block; background-color:rgba(0,0,0,0.08); margin-bottom:50px;}
 .content-boxed .divider-icon i{background-color:#FFF;}
 .divider-icon i{position:absolute; width:50px; background-color:#FFF; text-align:center; margin-top:-8px; left:50%; transform:translateX(-50%);}
+.divider-xs{height:2px; width:80px; margin:auto auto 10px auto;}
 .divider-small{height:2px; width:80px; margin:auto auto 20px auto;}
 .divider-small-left{height:2px; width:80px; margin-bottom:15px!important;}
 
@@ -3607,14 +3608,15 @@ input[type=file]{
 
 .profile-header{min-height:110px;}
 .profile-header .profile-left{padding:0px 130px 0px 20px}
-.profile-header .profile-left h1{font-weight:600;}
-.profile-header .profile-left p{font-size:12px; line-height:20px; margin-bottom:10px;}
-.profile-header .profile-left a{float:left; font-weight:600; font-size:11px; margin-right:20px;}
-.profile-header .profile-left a span{font-weight:400; opacity:0.5; padding-right:5px;}
+.profile-header .profile-left h1{font-size:17px; font-weight:600; line-height:1;}
+.profile-header .profile-left h1 i{position:relative; top:-5px; font-size:13px; padding-left: 8px;}
+.profile-header .profile-left h2{font-size:13px; font-weight:400; line-height:1; color:#666; margin-top:4px;}
+.profile-header .profile-left .mais-info{font-size:13px}
+.profile-header .profile-left a.whatsapp{font-weight:500; font-size:13px; margin-top:8px;}
+.profile-header .profile-left a.whatsapp i{font-size:14px; margin-left:6px;}
+.profile-header .profile-left p{font-size:12px; line-height:17px; margin-bottom:5px;}
 .profile-header .profile-right{top:0px; position:absolute; right:10px;}
 .profile-header .profile-right img{width:110px; height:110px; border-radius:110px;}
-/*.profile-header .profile-left h1 i{position:absolute; font-size:11px; right:140px; padding-top:8px;}*/
-.profile-header .profile-left h1 i{position:relative; top:-5px; font-size:16px; padding-left: 8px;}
 
 
 /*Page VCard*/
